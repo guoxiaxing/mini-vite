@@ -1,0 +1,103 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@types/react': 17.0.3
+  '@types/react-dom': 17.0.3
+  mini-vite: ../
+  react: 17.0.2
+  react-dom: 17.0.2
+  typescript: ^4.6.3
+
+dependencies:
+  react: 17.0.2
+  react-dom: 17.0.2_react@17.0.2
+
+devDependencies:
+  '@types/react': 17.0.3
+  '@types/react-dom': 17.0.3
+  mini-vite: link:..
+  typescript: 4.6.4
+
+packages:
+
+  /@types/prop-types/15.7.5:
+    resolution: {integrity: sha1-XxnSuFqY6VWANvajysyIGUIPBc8=, tarball: '@types/prop-types/download/@types/prop-types-15.7.5.tgz'}
+    dev: true
+
+  /@types/react-dom/17.0.3:
+    resolution: {integrity: sha1-f983uK+dbUAScTeGW7P/+IcdfuE=, tarball: '@types/react-dom/download/@types/react-dom-17.0.3.tgz'}
+    dependencies:
+      '@types/react': 17.0.44
+    dev: true
+
+  /@types/react/17.0.3:
+    resolution: {integrity: sha1-um4hU2hQGsOCaVHu8pBFdMJizHk=, tarball: '@types/react/download/@types/react-17.0.3.tgz'}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.11
+    dev: true
+
+  /@types/react/17.0.44:
+    resolution: {integrity: sha1-w3FL003VUasguAFdnQ2+yBKlHsc=, tarball: '@types/react/download/@types/react-17.0.44.tgz'}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.11
+    dev: true
+
+  /@types/scheduler/0.16.2:
+    resolution: {integrity: sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk=, tarball: '@types/scheduler/download/@types/scheduler-0.16.2.tgz'}
+    dev: true
+
+  /csstype/3.0.11:
+    resolution: {integrity: sha1-1mcAxerPrBlA3rTj7lZCeS2FzTM=, tarball: csstype/download/csstype-3.0.11.tgz}
+    dev: true
+
+  /js-tokens/4.0.0:
+    resolution: {integrity: sha1-GSA/tZmR35jjoocFDUZHzerzJJk=, tarball: js-tokens/download/js-tokens-4.0.0.tgz}
+    dev: false
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=, tarball: loose-envify/download/loose-envify-1.4.0.tgz}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /object-assign/4.1.1:
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=, tarball: object-assign/download/object-assign-4.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /react-dom/17.0.2_react@17.0.2:
+    resolution: {integrity: sha1-7P+2hF462Nv83EmPDQqTlzZQLCM=, tarball: react-dom/download/react-dom-17.0.2.tgz}
+    peerDependencies:
+      react: 17.0.2
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react: 17.0.2
+      scheduler: 0.20.2
+    dev: false
+
+  /react/17.0.2:
+    resolution: {integrity: sha1-0LXMUW0p6z7uOD91tihkz7aAADc=, tarball: react/download/react-17.0.2.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+
+  /scheduler/0.20.2:
+    resolution: {integrity: sha1-S67jlDbjSqk7SHS93L8P6Li1DpE=, tarball: scheduler/download/scheduler-0.20.2.tgz}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+
+  /typescript/4.6.4:
+    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
